@@ -34,7 +34,8 @@ Index:
 
 	5.0 Functions
 		5.1 General Referencing
-			Functions are first class objects in ThoughtSpeech, and are also referred to as thought processes. They can be assigned to variables and manipulated accordingly.
+			Functions are first class objects in ThoughtSpeech, and are also referred to as thought processes. They can be 
+			assigned to variables and manipulated accordingly.
 			The following code is an example of a function definition:
 				learn newThoughtProcess(){
 					shareIdea("Example speech");
