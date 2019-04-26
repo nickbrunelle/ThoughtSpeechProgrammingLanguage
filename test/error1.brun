@@ -1,0 +1,4 @@
+learn newTh0ught {
+	$ You cannot have numbers inside function names in ThoughtSpeech
+	$ There must also be a pair of parentheses included after the function name
+}

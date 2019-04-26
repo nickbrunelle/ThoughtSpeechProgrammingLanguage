@@ -1,0 +1,6 @@
+This will not be read as a comment, it needs a beginning and closing dollar sign
+
+mut brun = 23;
+
+shareIdea(brun + 18);
+

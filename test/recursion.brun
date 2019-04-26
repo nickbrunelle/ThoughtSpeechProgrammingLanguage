@@ -1,0 +1,14 @@
+learn fib(t){
+	maybe(t <= 1){
+		give t;
+	}
+	maybeNot {
+		give fib(t-1) + fib(t-2);
+	}
+}
+
+shareIdea("fib of 8 should be 21");
+shareIdea(fib(8));
+
+shareIdea("fib of 6 should be 8");
+shareIdea(fib(6));

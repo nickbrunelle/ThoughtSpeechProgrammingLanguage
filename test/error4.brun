@@ -1,0 +1,6 @@
+t = 5;
+mut s = "thoughtspeech";
+
+maybe(t < s){
+	$this will generate a mutable assignment error
+}

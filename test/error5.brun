@@ -1,0 +1,5 @@
+mut t = 7;
+mut s = 5;
+maybe(t = s){
+	shareIdea("Condition");
+}

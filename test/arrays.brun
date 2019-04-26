@@ -1,0 +1,45 @@
+mut brun = ["This", "is", "an", "example", "of", "a", "test", "array"];
+mut multiValueArray = ["alpha", 56, "anotherAlpha", 65];
+
+shareIdea("The brun array is as follows...");
+shareIdea(brun);
+
+shareIdea();
+
+shareIdea("The multiValueArray is...");
+shareIdea(multiValueArray);
+
+shareIdea();
+
+shareIdea("The 1st value of the multiValueArray is...");
+shareIdea(multiValueArray[0]);
+
+shareIdea();
+
+shareIdea("The 4th value of brun is...");
+shareIdea(brun[3]);
+
+shareIdea();
+
+shareIdea("The size of brun is...");
+shareIdea(length(brun));
+
+shareIdea();
+
+shareIdea("Let's add a new value to brun...");
+add(brun, "example");
+shareIdea(brun);
+
+shareIdea();
+
+shareIdea("The new length of brun should be equal to 9...");
+shareIdea(length(brun));
+
+shareIdea();
+
+shareIdea("Removing 'array' from brun");
+takeaway(brun, 7);
+shareIdea(brun);
+
+shareIdea("The size of brun should be 8 again...");
+shareIdea(length(brun));

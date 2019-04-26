@@ -1,0 +1,19 @@
+learn iteration(t) {
+	share(t);
+	maybe(t < 10){
+		iteration(t + 1);
+	}
+}
+
+shareIdea("Testing Iteration");
+iteration(0);
+shareIdea();
+
+shareIdea("Testing While Loop");
+
+mut s = 0;
+thinkAbout(s <= 10) {
+	share(s);
+	s = s + 1;
+}
+shareIdea();

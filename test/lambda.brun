@@ -1,0 +1,21 @@
+learn lambda(t,s){
+	give learn(){
+		give t + s;
+	};
+}
+
+shareIdea(lambda(6,6));
+
+mut brun = lambda;
+shareIdea(brun(4,4));
+
+learn t(mut){
+	give mut;
+}
+
+learn b(mut){
+	give mut;
+}
+
+shareIdea(t(50) + s(30));
+shareIdea();

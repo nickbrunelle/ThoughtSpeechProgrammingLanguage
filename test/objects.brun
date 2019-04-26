@@ -1,0 +1,22 @@
+learn node(value, next){
+	learn getNext() { give next; }
+	give this;
+}
+
+mut brune = node(1, empty);
+mut brunel = node(2, brune);
+mut brunell = node(3, brunel);
+mut brunelle = node(4, brunell);
+
+mut t = brunelle.next;
+mut s = t.next;
+mut p = s.next;
+mut d = p.next;
+
+mut iter = brunelle;
+
+thinkAbout(iter != empty){
+	share(iter.value);
+	iter = iter.next;
+}
+shareIdea();

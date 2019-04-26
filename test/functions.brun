@@ -1,0 +1,13 @@
+learn newThoughtProcess(t, s){
+	shareIdea(t);
+	shareIdea(s);
+	learn nestedProcess(){
+		give t + s;
+	}
+	share("t + s is equal to...");
+	give nestedProcess();
+}
+
+shareIdea(newThoughtProcess(50,25));
+mut brun = newThoughtProcess;
+shareIdea(brun(40,20));

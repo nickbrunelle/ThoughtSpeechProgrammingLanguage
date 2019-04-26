@@ -1,0 +1,17 @@
+mut brun = 43;
+
+maybe(100 < 35){
+	shareIdea("100 is less than 35");
+} maybeNot maybe(brun < 40){
+	shareIdea("brun is less than 40");
+} maybeNot {
+	shareIdea("100 is not less than 35 and brun is not less than 40");
+}
+
+$this line should be recognized as a comment
+
+maybe(brun > 5){
+	shareIdea("brun is greater than 5");
+} maybeNot {
+	shareIdea("This line should not be shared");
+}
